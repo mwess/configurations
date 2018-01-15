@@ -1,0 +1,8 @@
+1. Format
+2. Connect to internet
+3. mount -L nixos /mnt
+4. mkdir /mnt/boot
+5. mount -L boot /mnt
+6. nixos-generate-config --root /mnt
+7. cp /from/repo/*.nix /mnt/etc/nixos/configs... 
+8. nixos-install
